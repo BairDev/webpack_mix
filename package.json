@@ -1,0 +1,17 @@
+{
+    "name": "webpack-module-mix",
+    "description": "Check what happens to contructor functions",
+    "author": {
+        "email" : "trail.and.error@gmx.net",
+        "name": "Bair dev"
+    },
+    "license": "UNLICENSED",
+    "version": "0.0.1",
+    "dependencies": {
+        "webpack" : "3.5.3"
+    },
+    "scripts": {
+        "bundle": "webpack --config webpack.config.js",
+        "start": "npm run-script bundle"
+    }
+}
